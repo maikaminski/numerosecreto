@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600;700&display=swap');
+
+:root {
+    --font-family: 'Inter Tight', sans-serif;
+    --cor-primaria: #FBE0C4;
+    --cor-de-fundo: #2978B5;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2.5em;
+    padding: 1rem;
+}
+
+.mensagem {
+    font-size: 2em;
+    padding: .5rem;
+}
+
+.box {
+    border: 2px solid var(--cor-primaria);
+    display: inline-block;
+    font-size: 4em;
+    padding: .5rem;
+    margin: 1rem;
+}
+.btn-jogar {
+    padding: .5rem 3rem;
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--cor-primaria);
+    margin-top: 20px;
+    color: var(--cor-de-fundo);
+    font-size: 20px;
+    font-weight: bold;
+}
